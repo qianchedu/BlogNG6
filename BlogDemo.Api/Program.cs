@@ -8,8 +8,14 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace BlogDemo
+namespace BlogDemo.Api
 {
+    /// <summary>
+    /// 进行基础设施的配置，很少发生变化
+    /// HTTP Server
+    /// 集成IIS
+    /// 配置信息来源
+    /// </summary>
     public class Program
     {
         public static void Main(string[] args)
